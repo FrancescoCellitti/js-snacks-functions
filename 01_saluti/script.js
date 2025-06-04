@@ -4,9 +4,10 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+const hello = (nome) => console.log(`Ciao ${userName}`)
 
 // Invoca la funzione qui e stampa il risultato in console
+hello(userName)
 
 
 
